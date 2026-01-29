@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Sour Gummy";
+}
+
+@layer components {
+  .window {
+    @apply w-[700px] h-[400px]  outline-[2px]  mt-[10px]  flex flex-row rounded-[5px] overflow-hidden;
+  }
+  .right-panel {
+    @apply w-[35px] flex flex-col items-center pt-[8px];
+  }
+  .name {
+    @apply flex items-center justify-center relative w-full mx-[50px] max-w-[330px] h-[20px];
+  }
+  .creating-icon {
+    @apply w-[15px] h-[15px] hover:scale-110 transition-all duration-300;
+  }
+}

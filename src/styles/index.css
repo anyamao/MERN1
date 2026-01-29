@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Sour Gummy";
+}
+
+@layer components {
+  .wrapper {
+    @apply min-w-screen min-h-screen flex flex-col items-center;
+  }
+  .page-wrapper {
+    @apply flex-1 w-full;
+  }
+  .content-wrapper {
+    @apply min-w-[480px] max-w-[1400px] w-6/7 flex;
+  }
+  .avatar {
+    @apply w-[30px] h-[30px] rounded-full absolute mt-[5px] right-0;
+  }
+  .header-container {
+    @apply w-screen h-[40px]  z-10 flex flex-col border-b-[2px] border-b-[#f0edeb] items-center justify-center;
+  }
+  .header-content {
+    @apply flex justify-center  z-20 items-center relative  mt-[-5px] min-w-[480px] max-w-[1400px] w-6/7;
+  }
+  .navigation-container {
+    @apply flex flex-row justify-around z-20 absolute w-1/2 max-w-[300px]  mt-[7px];
+  }
+  .navigation-element {
+    @apply border-b-[1px] border-b-white  hover:border-b-[#a1633a] transition-all duration-300;
+  }
+
+  .normal-text {
+    @apply text-[10px];
+  }
+  .normal-color {
+    @apply text-[#a1633a];
+  }
+  .light-pink {
+    @apply bg-pink-100 outline-pink-200;
+  }
+  .normal-pink {
+    @apply bg-pink-200;
+  }
+  .smaller-text {
+    @apply text-[8px];
+  }
+
+  .icon {
+    @apply w-[13px] h-[13px] hover:scale-110 transition-transform transition-all duration-300  opacity-50 cursor-pointer my-[3px];
+  }
+}
