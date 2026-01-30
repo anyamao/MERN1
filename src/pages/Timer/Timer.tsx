@@ -10,6 +10,7 @@ const Timer = () => {
         <Header></Header>
         <div className="content-wrapper">
           <NoteSingle></NoteSingle>
+          <p>121111111111111</p>
         </div>
         <NoteCreation></NoteCreation>
       </div>
