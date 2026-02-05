@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1770285016673,
+      "tag": "0000_messy_the_call",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1770286926602,
+      "tag": "0001_bumpy_marvel_apes",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1770287926417,
+      "tag": "0002_clammy_prodigy",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1770288853122,
+      "tag": "0003_strange_the_phantom",
+      "breakpoints": true
+    }
+  ]
+}
